@@ -14,7 +14,7 @@
     <jdbcUrl>jdbcUrl</jdbcUrl>
 
     <!-- 生成文件类型 -->
-    <fileType>WORD/HTML/MARKDOWN</fileType>
+    <fileType>WORD/HTML/MD</fileType>
     
     <!-- 打开文件输出目录 -->
     <openOutputDir>false</openOutputDir>
@@ -40,3 +40,11 @@ pom文件夹中根据自己的数据库选择相应的文本复制到pom.xml
         
 启动即可生成数据库文档     
 ![img.png](img.png)
+
+                    <username>sa</username>
+                    <!--password-->
+                    <password>Sqlserver_7F</password>
+                    <!--driver-->
+                    <driverClassName>com.microsoft.sqlserver.jdbc.SQLServerDriver</driverClassName>
+                    <!--jdbc url-->
+                    <jdbcUrl>jdbc:sqlserver://10.62.24.23:1433;databaseName=plemis4.0_dev</jdbcUrl>
