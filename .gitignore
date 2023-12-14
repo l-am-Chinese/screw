@@ -1,24 +1,81 @@
-# Compiled class file
+# 忽略生成的目录和文件
+target/
+bin/
 *.class
+*.war
+*.jar
+*.ear
 
-# Log file
+# 忽略IDE和编辑器生成的文件
+.idea/
+*.iml
+*.ipr
+*.iws
 *.log
+*.swp
+*.log
+*.log.*
+*.DS_Store
 
-# BlueJ files
-*.ctxt
+# 忽略Spring Boot应用的配置文件
+/application.properties
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# 忽略本地配置文件
+/application-local.properties
+/application-dev.properties
+/application-test.properties
+/application-prod.properties
 
-# Package Files #
+# 忽略日志文件
+/logs/
+
+# 忽略缓存和临时文件
+*.tmp
+*.log
+*.log.*
+*.log*
+*.out
+*.pid
+
+# 忽略Maven构建过程生成的文件
+log/
+target/
+*.iml
+.idea/
+*.class
 *.jar
 *.war
-*.nar
 *.ear
-*.zip
-*.tar.gz
-*.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
+# 忽略Eclipse工程文件
+.classpath
+.project
+.settings/
+*.launch
+
+# 忽略VS Code配置文件夹
+.vscode/
+
+# 忽略Gradle相关文件
+.gradle/
+build/
+
+# 忽略Node.js相关文件
+node_modules/
+
+# 忽略Yarn相关文件
+yarn-error.log
+yarn.lock
+
+# 忽略Docker相关文件
+.docker/
+docker-compose.yml
+docker-compose.override.yml
+
+# 忽略本地数据库文件
+*.db
+
+# 忽略本地环境配置文件
+.env
+.env.local
+.env.*.local
